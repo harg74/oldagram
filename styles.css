@@ -1,0 +1,164 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color:blanchedalmond;
+}
+
+main{
+    background-color: blanchedalmond;
+    width: 375px;
+}
+
+.post, header{
+    background: #fff;
+
+}
+
+.likes-count,
+.comments{
+    margin-top: 10px;
+}
+
+.post{
+    margin-bottom: 10px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+#oldagram-logo{
+    width: 127px;
+    position: relative;
+    left: 16px;
+}
+
+#user-img{
+    position: relative;
+    right: 16px;
+}
+
+#avatar-img{
+    margin: 10px 7px 11px 10px ;
+}
+
+.img-width{
+    width: 34px;
+    border-radius: 50px;
+}
+
+.btn-width{
+    width: 23.3px;
+}
+
+.user-about-container{
+    display: flex;
+}
+
+.user-about-data{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: center;
+}
+
+.img-posted{
+    width: 375px;
+    vertical-align: bottom;
+}
+
+hr{
+    color: gray;
+}
+
+.social-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 10px;
+}
+
+#like-btn,
+#comment-btn,
+#dm-btn,
+.likes-count,
+.comments{
+    margin-left: 10px;
+}
+
+.likes-count,
+.comments{
+    padding: 0px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.inital-state{
+    width: 23.3px;  /* Adjust these to the dimensions of your heart image */
+    height: 23.3px;
+    background-color: black; /* The color you want to apply to the heart */
+}
+
+#like-btn{
+    -webkit-mask: url('images/icon-heart.png') no-repeat center / contain;
+    mask: url('images/icon-heart.png') no-repeat center / contain;
+}
+
+#comment-btn{
+    -webkit-mask: url('images/icon-comment.png') no-repeat center / contain;
+    mask: url('images/icon-comment.png') no-repeat center / contain;
+}
+
+#dm-btn{
+    -webkit-mask: url('images/icon-dm.png') no-repeat center / contain;
+    mask: url('images/icon-dm.png') no-repeat center / contain;
+}    
+
+.interactive-btns{
+    display: flex;
+}
+
+.action-state:hover{
+    transform: translateY(-1px);
+}
+
+#like-btn:hover,
+#like-bt:active{
+    background-color: red; /* The color you want to apply to the heart */
+    -webkit-mask: url('images/icon-heart.png') no-repeat center / contain;
+    mask: url('images/icon-heart.png') no-repeat center / contain;
+}
+
+
+#comment-btn:hover,
+#comment-btn:active{
+    background-color: rgb(2, 178, 46); /* The color you want to apply to the heart */
+    -webkit-mask: url('images/icon-comment.png') no-repeat center / contain;
+    mask: url('images/icon-comment.png') no-repeat center / contain;
+}
+
+
+#dm-btn:hover,
+#dm-btn:active{
+    background-color: rgb(6, 110, 255); /* The color you want to apply to the heart */
+    -webkit-mask: url('images/icon-dm.png') no-repeat center / contain;
+    mask: url('images/icon-dm.png') no-repeat center / contain;
+}
+
+
+
